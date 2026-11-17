@@ -54,6 +54,12 @@ img {
   padding: 0 28px;
 }
 
+@media (max-width: 480px) {
+  .container {
+    padding: 0 16px;
+  }
+}
+
 /* ---------- TOP BAR ---------- */
 .topbar {
   background: var(--navy-deep);
