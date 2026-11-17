@@ -11,6 +11,13 @@ const DEMO_RECORDS = {
     pdf: '/cigdemPDF.pdf',
     pdfName: 'cigdemPDF.pdf',
   },
+  'AI-2021-CK-4792': {
+    no: 'AI-2021-CK-4792',
+    org: 'Akredite Sertifika Kurumu',
+    status: 'Geçerli',
+    pdf: '/cigdemPDF.pdf',
+    pdfName: 'cigdemPDF.pdf',
+  },
   'ASK-2025-08417': {
     name: 'A*** Y***',
     program: 'Ön Muhasebe Uzmanlığı',
