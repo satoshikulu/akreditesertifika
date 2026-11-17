@@ -47,10 +47,6 @@ export default function Navbar() {
           <div className="logo-mark">
             <img src="/logo.jpg" alt="Akredite Sertifika Kurumu" />
           </div>
-          <div>
-            Akredite Sertifika
-            <small>Yetkinlik Belgelendirme</small>
-          </div>
         </Link>
 
         <ul className={`nav-menu ${open ? 'open' : ''}`}>

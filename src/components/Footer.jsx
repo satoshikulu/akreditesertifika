@@ -10,10 +10,6 @@ export default function Footer() {
               <div className="logo-mark">
                 <img src="/logo.jpg" alt="Akredite Sertifika Kurumu" />
               </div>
-              <div>
-                Akredite Sertifika
-                <small>Yetkinlik Belgelendirme</small>
-              </div>
             </Link>
             <p>
               Türkiye'nin güvenilir akredite belgelendirme kurumu. 28 yıldır bireylere ve
