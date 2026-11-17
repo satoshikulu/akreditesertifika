@@ -45,9 +45,7 @@ export default function Navbar() {
       <div className="container">
         <Link to="/" className="logo" onClick={close}>
           <div className="logo-mark">
-            <svg viewBox="0 0 24 24">
-              <path d="M12 2l2.4 6.9H22l-6 4.4 2.3 7-6.3-4.6L5.7 20.3 8 13.3 2 8.9h7.6L12 2z" />
-            </svg>
+            <img src="/logo.jpg" alt="Akredite Sertifika Kurumu" />
           </div>
           <div>
             Akredite Sertifika
