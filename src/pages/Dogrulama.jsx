@@ -18,6 +18,13 @@ const DEMO_RECORDS = {
     pdf: '/cigdemPDF.pdf',
     pdfName: 'cigdemPDF.pdf',
   },
+  'IN-2026-0047': {
+    no: 'IN-2026-0047',
+    org: 'Akredite Sertifika Kurumu',
+    status: 'Geçerli',
+    pdf: '/ebubekirPDF.pdf',
+    pdfName: 'ebubekirPDF.pdf',
+  },
   'ASK-2025-08417': {
     name: 'A*** Y***',
     program: 'Ön Muhasebe Uzmanlığı',
