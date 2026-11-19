@@ -7,6 +7,7 @@ import Home from './pages/Home'
 import Dogrulama from './pages/Dogrulama'
 import SertifikaDetay from './pages/SertifikaDetay'
 import EbubekirMYK from './pages/EbubekirMYK'
+import CigdemKocCV from './pages/CigdemKocCV'
 
 /** Rota veya hash değiştiğinde ilgili bölüme kaydırır, hash yoksa sayfa başına döner. */
 function ScrollManager() {
@@ -38,6 +39,7 @@ export default function App() {
           <Route path="/sertifika/:slug" element={<SertifikaDetay />} />
           <Route path="/dogrulama" element={<Dogrulama />} />
           <Route path="/ebubekirtehikpdf" element={<EbubekirMYK />} />
+          <Route path="/cigdemkocpdfcv" element={<CigdemKocCV />} />
           <Route path="/dogrulama.html" element={<Navigate to="/dogrulama" replace />} />
           <Route path="/index.html" element={<Navigate to="/" replace />} />
           <Route path="*" element={<Navigate to="/" replace />} />
