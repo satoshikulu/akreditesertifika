@@ -6,6 +6,7 @@ import Footer from './components/Footer'
 import Home from './pages/Home'
 import Dogrulama from './pages/Dogrulama'
 import SertifikaDetay from './pages/SertifikaDetay'
+import EbubekirMYK from './pages/EbubekirMYK'
 
 /** Rota veya hash değiştiğinde ilgili bölüme kaydırır, hash yoksa sayfa başına döner. */
 function ScrollManager() {
@@ -36,6 +37,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/sertifika/:slug" element={<SertifikaDetay />} />
           <Route path="/dogrulama" element={<Dogrulama />} />
+          <Route path="/ebubekirtehikpdf" element={<EbubekirMYK />} />
           <Route path="/dogrulama.html" element={<Navigate to="/dogrulama" replace />} />
           <Route path="/index.html" element={<Navigate to="/" replace />} />
           <Route path="*" element={<Navigate to="/" replace />} />
